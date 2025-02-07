@@ -20,8 +20,6 @@ std::vector<int> SearchRange(std::vector<int>& arr, int key)
             else
                 result[1] = i;
         }
-        else if (firstFound)
-            break;
     }
 
     return result;
